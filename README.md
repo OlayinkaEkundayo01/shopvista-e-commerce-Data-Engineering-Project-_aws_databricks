@@ -149,6 +149,7 @@ Business logic and enrichment that analysts and BI tools can use directly:
 ## 🗺 Data Model
 
 A star-schema style model in the Gold layer. `order_items` is the central fact table, linked to the customer, product, and date dimensions. Brand and category details are joined into `products` during Gold processing.
+![ERD](erd.png)
 
 ```mermaid
 erDiagram
